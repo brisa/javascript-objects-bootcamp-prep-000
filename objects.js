@@ -1,7 +1,7 @@
 let playlist = {"Chris Helan":'Flight & Whirl'}
 
 
-function updatePlaylist(playlist, artistName, songTitle){
-  const newList = Object.assign(target, source);
+function updatePlaylist(playlist, artistName, artistName){
+  const newList = playlist.assign(artistName, artistName);
   return playlist
 }
