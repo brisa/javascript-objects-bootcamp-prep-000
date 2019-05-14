@@ -7,5 +7,6 @@ var playlist = new Object({keys: '0'});
 }
 
 removeFromPlaylist(playlist, artistName){
-  obj[key] = value
+   playlist[artistName] = songTitle
+    return playlist
 }
