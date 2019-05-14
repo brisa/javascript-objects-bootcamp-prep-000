@@ -5,3 +5,7 @@ var playlist = new Object({keys: '0'});
   return playlist
 
 }
+
+removeFromPlaylist(playlist, artistName){
+  
+}
