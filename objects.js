@@ -6,7 +6,7 @@ var playlist = new Object({keys: '0'});
 
 }
 
-removeFromPlaylist(playlist, artistName){
+function removeFromPlaylist(playlist, artistName){
  delete playlist[artistName]
     return playlist
 }
